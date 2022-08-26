@@ -1,34 +1,28 @@
 body {
-    background-color: #f9f9f9;
-    color: #3c3c3c;
-    margin: 0;
+  background-color: #3c3c3c;
+  color: #f9f9f9;
+  margin: 0;
 }
-
-.dark-mode {
-    background-color: #3c3c3c;
-    color: #f9f9f9;
-}
-
 .nav {
-    background-color: #1e1e1e;
-    overflow: hidden;
-  }
+  background-color: #1e1e1e;
+  overflow: hidden;
+}
   
-  .nav a {
-    float: left;
-    color: #f9f9f9;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
+.nav a {
+  float: left;
+  color: #f9f9f9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav a:hover {
+  background-color: #e8e8e8;
+  color: black;
+}
   
-  .nav a:hover {
-    background-color: #e8e8e8;
-    color: black;
-  }
-  
-  .nav a.active {
-    background-color: #c1c5c8;
-    color: white;
-  }
+.nav a.active {
+  background-color: #c1c5c8;
+  color: white;
+}
