@@ -1,33 +1,35 @@
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
+*
+{
+  margin: 0;
+  padding: 0;
+  background-color: grey;
 }
 
-.sidenav a {
-  padding: 8px 8px 8px 32px;
+header
+{
+  padding:3vh 4vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul a
+{
+  margin-left: 2vh;
+  padding: 0.6vh 1.5vh;
+  list-style: none;
   text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
+  color: #000;
 }
 
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-  font-size: 36px;
-}
-
-#main {
-  transition: margin-left .5s;
-  padding: 16px;
+ul a.active, ul a:hover
+{
+  color: #fff;
+  background: #000; 
 }
