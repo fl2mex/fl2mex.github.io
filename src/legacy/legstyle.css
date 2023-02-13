@@ -1,0 +1,35 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+}
+
+header
+{
+  padding:3vh 4vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul a
+{
+  margin-left: 2vh;
+  padding: 0.6vh 1.5vh;
+  list-style: none;
+  text-decoration: none;
+  color: #000;
+}
+
+ul a.active, ul a:hover
+{
+  color: #fff;
+  background: #000; 
+}
